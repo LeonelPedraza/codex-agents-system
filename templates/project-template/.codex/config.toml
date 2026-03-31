@@ -1,0 +1,28 @@
+# Project-scoped Codex configuration
+# Override only what this repository actually needs.
+
+model_reasoning_effort = "high"
+
+[agents]
+max_threads = 6
+max_depth = 1
+job_max_runtime_seconds = 1800
+
+# Add only repo-specific MCP servers here.
+# Keep global MCPs in ~/.codex/config.toml when they are broadly reusable.
+
+# Example: design-heavy product
+# [mcp_servers.figma]
+# command = "npx"
+# args = ["-y", "<your-figma-mcp-server>"]
+# env_vars = ["FIGMA_API_TOKEN"]
+
+# Example: browser-heavy verification
+# [mcp_servers.playwright]
+# command = "npx"
+# args = ["-y", "@playwright/mcp"]
+
+# Example: platform-specific repo
+# [mcp_servers.vercel]
+# command = "npx"
+# args = ["-y", "<your-vercel-mcp-server>"]
