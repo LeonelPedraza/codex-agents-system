@@ -4,13 +4,6 @@ model = "gpt-5.4"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 
-[skills.config]
-allow = [
-  "supabase-postgres-best-practices",
-  "python-performance-optimization",
-  "openai-docs"
-]
-
 developer_instructions = """
 You are the database specialist for this repository.
 

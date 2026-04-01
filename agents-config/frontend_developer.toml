@@ -4,24 +4,6 @@ model = "gpt-5.4"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 
-mcp_servers = ["github", "figma"]
-
-[skills.config]
-allow = [
-  "frontend-design",
-  "web-design-guidelines",
-  "next-best-practices",
-  "playwright",
-  "figma:figma-use",
-  "figma:figma-implement-design",
-  "figma:figma-code-connect-components",
-  "vercel:react-best-practices",
-  "vercel:shadcn",
-  "vercel:nextjs",
-  "vercel:routing-middleware",
-  "vercel:turbopack"
-]
-
 developer_instructions = """
 You are a frontend specialist for web and mobile interfaces.
 

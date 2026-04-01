@@ -4,22 +4,6 @@ model = "gpt-5.4"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 
-mcp_servers = ["figma", "canva", "stitch", "lovable", "manus"]
-
-[skills.config]
-allow = [
-  "figma:figma-use",
-  "figma:figma-generate-design",
-  "figma:figma-create-design-system-rules",
-  "figma:figma-generate-library",
-  "figma:figma-create-new-file",
-  "frontend-design",
-  "web-design-guidelines",
-  "canva:canva-branded-presentation",
-  "canva:canva-resize-for-all-social-media",
-  "canva:canva-translate-design"
-]
-
 developer_instructions = """
 You are a product and interface designer.
 

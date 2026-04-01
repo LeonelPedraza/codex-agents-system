@@ -4,16 +4,6 @@ model = "gpt-5.4-mini"
 model_reasoning_effort = "medium"
 sandbox_mode = "workspace-write"
 
-mcp_servers = ["github", "notion"]
-
-[skills.config]
-allow = [
-  "doc",
-  "pdf",
-  "notion:notion-research-documentation",
-  "notion:notion-knowledge-capture"
-]
-
 developer_instructions = """
 You are a documentation specialist.
 
