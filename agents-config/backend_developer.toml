@@ -4,21 +4,6 @@ model = "gpt-5.4"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 
-mcp_servers = ["github", "redis", "stitch"]
-
-[skills.config]
-allow = [
-  "fastapi",
-  "fastapi-python",
-  "fastapi-templates",
-  "supabase-postgres-best-practices",
-  "python-performance-optimization",
-  "github:gh-fix-ci",
-  "github:github",
-  "vibe-security",
-  "openai-docs"
-]
-
 developer_instructions = """
 You are a backend specialist.
 

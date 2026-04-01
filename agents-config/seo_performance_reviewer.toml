@@ -4,18 +4,6 @@ model = "gpt-5.4"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 
-mcp_servers = ["github", "vercel"]
-
-[skills.config]
-allow = [
-  "web-design-guidelines",
-  "next-best-practices",
-  "vercel:nextjs",
-  "vercel:observability",
-  "vercel:verification",
-  "vercel:agent-browser-verify"
-]
-
 developer_instructions = """
 You are a technical SEO and performance reviewer.
 

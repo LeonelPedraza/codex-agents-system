@@ -4,16 +4,6 @@ model = "gpt-5.4"
 model_reasoning_effort = "high"
 sandbox_mode = "workspace-write"
 
-mcp_servers = ["github"]
-
-[skills.config]
-allow = [
-  "playwright",
-  "github:gh-address-comments",
-  "github:gh-fix-ci",
-  "doc"
-]
-
 developer_instructions = """
 You are a QA specialist.
 

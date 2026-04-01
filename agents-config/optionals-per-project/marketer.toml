@@ -4,20 +4,6 @@ model = "gpt-5.4"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 
-mcp_servers = ["canva", "notion", "gmail", "invideo"]
-
-[skills.config]
-allow = [
-  "canva:canva-branded-presentation",
-  "canva:canva-resize-for-all-social-media",
-  "canva:canva-translate-design",
-  "notion:notion-research-documentation",
-  "doc",
-  "remotion",
-  "remotion-best-practices",
-  "sora"
-]
-
 developer_instructions = """
 You are a product marketing specialist.
 

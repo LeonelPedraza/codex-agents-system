@@ -4,19 +4,6 @@ model = "gpt-5.4"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 
-mcp_servers = ["github", "notion", "gmail", "google-calendar"]
-
-[skills.config]
-allow = [
-  "find-skills",
-  "doc",
-  "notion:notion-research-documentation",
-  "notion:notion-spec-to-implementation",
-  "notion:notion-meeting-intelligence",
-  "gmail:gmail",
-  "google-calendar:google-calendar-meeting-prep"
-]
-
 developer_instructions = """
 You are the lead planner and solution architect.
 
